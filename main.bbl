@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{estruct}
+Díaz A.
+\newblock Patrones estructurales.
+
+\bibitem{Bol_2014}
+S~Bolaños.
+\newblock {\em Presentación patrones de diseño GoF}.
+
+\bibitem{Sergio_2015}
+Villegas~M. Cardona~S., Jaramillo~S.
+\newblock {\em Introducción a la programación en Java}.
+
+\bibitem{modeladosistema}
+Modelado del sistema.
+\newblock Modelos de interacción.
+
+\bibitem{behavioral}
+Robert K.
+\newblock Behavioral design patterns.
+
+\bibitem{Pressman_2010}
+R~Pressman.
+\newblock {\em Ingeniería de Software. Un Enfoque Práctico}.
+
+\end{thebibliography}

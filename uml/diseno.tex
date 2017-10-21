@@ -7,7 +7,7 @@
 \end{figure}
 \section{Introducción}
 
-El diseño del software, constituye una de las bases más importantes a la hora de crear nuevos sistemas. Hoy en día la complejidad creciente del software hace que el riesgo de construir sistemas que no alcancen los objetivos sea muy alto. Para evitar ese riesgo conviene construirlo apartir de una buena fase de planificación mediante diagramas UML que permitan cumplir las expectativas tanto del desarrollador como las del cliente. A continuación se presentarán algunos de los diagramas más importantes relacionados con el diseño del sistema de gestión de monitorías.
+El diseño del software, constituye una de las bases más importantes a la hora de crear nuevos sistemas. Hoy en día la complejidad creciente del software hace que el riesgo de construir sistemas que no alcancen los objetivos sea muy alto. Para evitar ese riesgo conviene construirlo a partir de una buena fase de planificación mediante diagramas UML que permitan cumplir las expectativas tanto del desarrollador como las del cliente. A continuación se presentarán algunos de los diagramas más importantes relacionados con el diseño del sistema de gestión de monitorías.
 
 \newpage
 
@@ -18,7 +18,7 @@ El diseño del software, constituye una de las bases más importantes a la hora 
 \section{Diagrama de Clases}
 
 Un diagrama de clases describe los tipos de objetos que hay en el sistema y las diversas clases de relaciones estáticas que existen entre ellos.
-Es importante identificar las realciones entre las clases. El nombre de la asosiación debe dejar claro que una entidad utiliza a otra clase como parte de sus atributos o características. Se debe tener en cuenta que entre dos clases puede existir más de una relación.\cite{Sergio_2015}
+Es importante identificar las relaciones entre las clases. El nombre de la asociación debe dejar claro que una entidad utiliza a otra clase como parte de sus atributos o características. Se debe tener en cuenta que entre dos clases puede existir más de una relación.\cite{Sergio_2015}
 \newline
 De acuerdo a los diagramas de secuencia y objetos, se realizó una construcción de los diagramas de clase de acuerdo con la utilidad que tiene coloso, a partir de las clases generadas se procedió a editar cada una de estas clases, agregando una serie de atributos y métodos que en un principio se consideran necesario.
 
@@ -171,7 +171,7 @@ Para el caso concreto de nuestro proyecto, se hará uso de los patrones estructu
     \caption{Fachada del sistema de gestión de tutorías.}
 	\label{fig:dcFachada}
 \end{figure}
-\indent Para el diseño del aplicativo de gestión de monitorías se utilizará una fachada que reuna las implementaciones más fundamentales con las que el usuario interactuará. Desacoplando la implementación del cliente con todo el subsistema y simplificando su uso.
+\indent Para el diseño del aplicativo de gestión de monitorías se utilizará una fachada que reuna las implementaciones más fundamentales con las que el usuario interactuará. Desacoplando la implementación del cliente con todo el subsistema y simplificando su uso. Puede observar un ejemplo de su implementación en el Anexo 8.1.1
 \newpage
 \paragraph{Patrón Componente}
 El patrón componente simplifica el uso de varios objetos similares organizandolos en una estructura tipo árbol que representa el todo-parte\cite{Bol_2014}, lo cual simplifica la creación de algoritmos y objetos complejos haciendo uso de la recursión al tratar al todo igual que a una parte.
@@ -213,7 +213,7 @@ Provee un sustituto o marcador para otro objeto que controla el acceso a él. Co
     \caption{Implementación del patrón proxy.}
 	\label{fig:dcProxy}
 \end{figure}
-\indent El patrón Proxy actúa en el diseño del sistema de gestión de monitorías como intermediario para poder realizar operaciones en la base de datos SQLite, el proxy recibe la solicitud de alguna operación en la base de datos, y si es posible hacerla se delegan las funciones a la clase BDSQLite, caso contrario no se ejecuta ninguna acción lo cual reduce el uso de recursos.
+\indent El patrón Proxy actúa en el diseño del sistema de gestión de monitorías como intermediario para poder realizar operaciones en la base de datos SQLite, el proxy recibe la solicitud de alguna operación en la base de datos, y si es posible hacerla se delegan las funciones a la clase BDSQLite, caso contrario no se ejecuta ninguna acción lo cual reduce el uso de recursos. Podrá observar un ejemplo de su implementación en el anexo 8.1.2.
 \newpage
 \subsection{Patrones de Comportamiento}
 Los patrones de comportamiento explican la forma en la que los objetos interactúan entre sí. Describe como los diferentes objetos y clases intercambian mensajes entre ellos para hacer que las cosas funcionen y describir como los pasos de una tarea en específico es dividida a lo largo de distintos objetos. A diferencia de los patrones creacionales que solo describen el momento en que se crean los objetos y los patrones estructurales que describen una estructura más o menos estática, los patrones de comportamiento describen un proceso o flujo de información\cite{behavioral}.
