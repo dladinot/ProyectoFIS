@@ -57,4 +57,7 @@
 \contentsline {section}{\numberline {8.1}C\IeC {\'o}digo}{65}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Patr\IeC {\'o}n Fachada}{65}{subsection.8.1.1}
 \contentsline {subsection}{\numberline {8.1.2}Patr\IeC {\'o}n Proxy}{67}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Patr\IeC {\'o}n Comando}{70}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Patr\IeC {\'o}n Singleton}{74}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Patr\IeC {\'o}n Componente}{75}{subsection.8.1.5}
 \contentsfinish 
