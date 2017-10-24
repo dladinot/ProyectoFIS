@@ -131,7 +131,7 @@ El patrón Singleton, también conocido como instancia única, nos permite tener
 	\label{fig:singleton}
 \end{figure}
 
-\indent Dentro del diseño del aplicativo es necesario garantizar que la base de datos de la que se hace uso sea la misma en todo el aplicativo y que no se creen multiples instancias de esta, por lo que se hará uso del patrón de diseño Singleton para garantizar una única instancia de la base de datos y que esta sea utilizada en todo el aplicativo.
+\indent Dentro del diseño del aplicativo es necesario garantizar que la base de datos de la que se hace uso sea la misma en todo el aplicativo y que no se creen multiples instancias de esta, por lo que se hará uso del patrón de diseño Singleton para garantizar una única instancia de la base de datos y que esta sea utilizada en todo el aplicativo. Podrá observar un ejemplo de su implementación en el anexo 8.1.1.
 \newpage
 \subsection{Patrones Estructurales}
 Los patrones estructurales se enfocan en como las clases y objetos se componen para formar
@@ -171,7 +171,7 @@ Para el caso concreto de nuestro proyecto, se hará uso de los patrones estructu
     \caption{Fachada del sistema de gestión de tutorías.}
 	\label{fig:dcFachada}
 \end{figure}
-\indent Para el diseño del aplicativo de gestión de monitorías se utilizará una fachada que reuna las implementaciones más fundamentales con las que el usuario interactuará. Desacoplando la implementación del cliente con todo el subsistema y simplificando su uso. Puede observar un ejemplo de su implementación en el Anexo 8.1.1
+\indent Para el diseño del aplicativo de gestión de monitorías se utilizará una fachada que reuna las implementaciones más fundamentales con las que el usuario interactuará. Desacoplando la implementación del cliente con todo el subsistema y simplificando su uso. Puede observar un ejemplo de su implementación en el Anexo 8.1.2.
 \newpage
 \paragraph{Patrón Componente}
 El patrón componente simplifica el uso de varios objetos similares organizandolos en una estructura tipo árbol que representa el todo-parte\cite{Bol_2014}, lo cual simplifica la creación de algoritmos y objetos complejos haciendo uso de la recursión al tratar al todo igual que a una parte.
@@ -186,12 +186,12 @@ El patrón componente simplifica el uso de varios objetos similares organizandol
 \newline
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{composite}
+	\includegraphics[width=0.6\linewidth]{composite}
     \centering
     \caption{Patrón componente del sistema de gestión de tutorías..}
 	\label{fig:composite}
 \end{figure}
-\indent Dentro de la aplicación de monitorias se creará una zona de clasificados en donde los monitores podrán observar las publicaciones hechas por los profesores que requieran de sus servicios. Para el manejo de estos clasificados se ha decidido hacer uso del patrón componente, el cual permite agrupar los clasificados en una estructura en forma de árbol, lo que permite hacer uso de la recursión para facilitar la forma en la que se van a visualizar los clasificados. 
+\indent Dentro de la aplicación de monitorias se creará una zona de clasificados en donde los monitores podrán observar las publicaciones hechas por los profesores que requieran de sus servicios. Para el manejo de estos clasificados se ha decidido hacer uso del patrón componente, el cual permite agrupar los clasificados en una estructura en forma de árbol, lo que permite hacer uso de la recursión para facilitar la forma en la que se van a visualizar los clasificados. Podrá observar un ejemplo de su implementación en el anexo 8.1.3. 
 \newpage
 \paragraph{Patrón Proxy}
 Provee un sustituto o marcador para otro objeto que controla el acceso a él. Controla el acceso a un objeto o lo representa localmente o por su alta demanda.\cite{Bol_2014}.
@@ -213,7 +213,7 @@ Provee un sustituto o marcador para otro objeto que controla el acceso a él. Co
     \caption{Implementación del patrón proxy.}
 	\label{fig:dcProxy}
 \end{figure}
-\indent El patrón Proxy actúa en el diseño del sistema de gestión de monitorías como intermediario para poder realizar operaciones en la base de datos SQLite, el proxy recibe la solicitud de alguna operación en la base de datos, y si es posible hacerla se delegan las funciones a la clase BDSQLite, caso contrario no se ejecuta ninguna acción lo cual reduce el uso de recursos. Podrá observar un ejemplo de su implementación en el anexo 8.1.2.
+\indent El patrón Proxy actúa en el diseño del sistema de gestión de monitorías como intermediario para poder realizar operaciones en la base de datos SQLite, el proxy recibe la solicitud de alguna operación en la base de datos, y si es posible hacerla se delegan las funciones a la clase BDSQLite, caso contrario no se ejecuta ninguna acción lo cual reduce el uso de recursos. Podrá observar un ejemplo de su implementación en el anexo 8.1.4.
 \newpage
 \subsection{Patrones de Comportamiento}
 Los patrones de comportamiento explican la forma en la que los objetos interactúan entre sí. Describe como los diferentes objetos y clases intercambian mensajes entre ellos para hacer que las cosas funcionen y describir como los pasos de una tarea en específico es dividida a lo largo de distintos objetos. A diferencia de los patrones creacionales que solo describen el momento en que se crean los objetos y los patrones estructurales que describen una estructura más o menos estática, los patrones de comportamiento describen un proceso o flujo de información\cite{behavioral}.
@@ -233,7 +233,6 @@ Dentro de los patrones de comportamiento se pueden encontrar los siguientes:
 \end{enumerate}
 
 Para el caso concreto de nuestro proyecto, se hará uso del patrón de comportamiento comando. Por lo que sólo se hará énfasis profundo en éste patrón.
-\newpage
 \paragraph{Patrón Comando}
 El patrón comando nos permite encapsular una petición en un objeto, es decir que nos permite parametrizar a los clientes con diferentes peticiones, esto significa que podemos hacer peticiones a objetos de nuestra aplicación sin ser especificados, este es un método importante, debido a que como desarrolladores muchas veces no tenemos modo de conocer al receptor de la petición, ni de saber que operaciones se efectuaran, en términos conceptuales este patrón nos permite asegurar el encapsulamiento y por ende la seguridad de nuestra información
 \newline
@@ -255,5 +254,6 @@ El patrón comando nos permite encapsular una petición en un objeto, es decir q
 \end{figure}
 \indent La clave de este patrón es la clase abstracta Comando, esta declara una interfaz para ejecutar las líneas de operaciones, en este caso, esta clase tiene consigo una operación, también abstracta la cual se le suele llamar Ejecutar, con ello las subclases de orden, especifican un receptor-acción (en nuestro caso el receptor seria nuestra aplicación, por el otro lado la acción seria el comando) guardando el receptor como una variable de instancia e implementado, mientras que Ejecutar se usa para invocar la petición. Por ende, el receptor debe poseer el conocimiento necesario para llevar a cabo la petición. Una de las características y principales, y quizá la que nos da una conveniente ventaja es la de tener la posibilidad de deshacer las operaciones realizadas, también y por obvias razones buscamos independizar el momento de la petición del momento de la ejecución.
 \newline
-Como ya habíamos mencionado, al tener nuestra clase comando, debemos tener la especificación, es decir la clase concreta de nuestro comando, con ello nos permitimos separar tareas, y es esta clase la que conocerá la procedencia de la petición.  La clase menu será nuestra interfaz gráfica, es decir un menú con opciones desplegables sobre ciertas tareas a cumplir.Y por otro lado la clase app será la que implemente la funcionalidad real, es decir nuestra aplicación en sí, esta sera nuestra clase receptor. 
+
+Como ya habíamos mencionado, al tener nuestra clase comando, debemos tener la especificación, es decir la clase concreta de nuestro comando, con ello nos permitimos separar tareas, y es esta clase la que conocerá la procedencia de la petición.  La clase menu será nuestra interfaz gráfica, es decir un menú con opciones desplegables sobre ciertas tareas a cumplir.Y por otro lado la clase app será la que implemente la funcionalidad real, es decir nuestra aplicación en sí, esta sera nuestra clase receptor. Podrá observar un ejemplo de su implementación en el anexo 8.1.5.
 \newpage
