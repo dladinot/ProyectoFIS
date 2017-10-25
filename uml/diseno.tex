@@ -13,6 +13,29 @@ El diseño del software, constituye una de las bases más importantes a la hora 
 
 \section{Diagrama de Clases de Análisis}
 
+Los diagramas de clases de análisis facilitan la realización de los casos de uso del sistema y sirve como una simplificación del modelo de diseño. Entre los 3 elementos que se visualizan en estos diagramas se encuentran la Interfaz, qué es una clase estereotipada la cual describe la realización de los casos de uso del sistema. El otro elemento es el controlador, donde se plasma la lógica del negocio y el último elemento es la entidad, donde se encuentra la persistencia del sistema. 
+
+A continuación se muestra el diagrama de clases de análisis para la parte de la autenticación del usuario.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{dcaLogin}
+	\centering
+	\caption{Diagrama de Clases de análisis para el Login de la plataforma.}
+	\label{fig:dClaALogin}
+\end{figure}
+
+Por otro lado se tiene para la certificación de monitorías el siguiente diagrama:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{dcaCertificacion}
+	\centering
+	\caption{Diagrama de Clases de análisis para la certificación de monitoría.}
+	\label{fig:dcaCertificacion}
+\end{figure}
+
+
+
 \newpage
 
 \section{Diagrama de Clases}
@@ -244,6 +267,7 @@ El patrón comando nos permite encapsular una petición en un objeto, es decir q
     \caption{Estructura general del patron comando.}
 	\label{fig:mComando}
 \end{figure}
+\clearpage
 \indent\textbf{Caso de estudio}
 \begin{figure}[H]
 	\centering
