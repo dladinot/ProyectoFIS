@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{estruct}
 Díaz A.
@@ -16,13 +16,22 @@ Villegas~M. Cardona~S., Jaramillo~S.
 Modelado del sistema.
 \newblock Modelos de interacción.
 
+\bibitem{Stehen_2003}
+Stephen H.
+\newblock {\em Metrics and Models in Software Quality Engineering}.
+
+\bibitem{ccmetric}
+Oriente J..
+\newblock Complejidad ciclomática ¿nuestro código es fácil de mantener y
+  probar?
+
+\bibitem{Kendall_2005}
+Kendall K. and Kendall J.
+\newblock {\em Análisis y diseño de sistemas}.
+
 \bibitem{behavioral}
 Robert K.
 \newblock Behavioral design patterns.
-
-\bibitem{Kendall_2005}
-Kendall and kendall.
-\newblock {\em Análisis y diseño de sistemas}.
 
 \bibitem{workflow}
 Saffirio M.
