@@ -7,6 +7,19 @@
 
 \section{Diagrama de Sistemas}
 
+Los diagramas de sistemas o paquetes son esquemas que ayudan a visualizar la forma de organización de una arquitectura. Además de ello permite visualizar la dependencia que hay en cada uno de los sistemas para así mejorar su estructura. Dentro de los diagramas de sistemas es posible encontrar dependencias lineales o cíclicas, el objetivo en la mayoría de casos es que la dependencia sea lineal, pues si la dependencia es cíclica significa que hay algo mal diseñado, y es allí donde el diseño por componentes hace su entrada para aliviar dicho problema. 
+Para el caso particular del Sistema de Gestión de Monitorias se tiene el siguiente diagrama de sistemas:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{dSistemas}
+	\centering
+	\caption{Diagrama de sistemas SGM}
+	\label{fig:dSistemas}
+\end{figure}
+
+En el diagrama se aprecian dos grandes sistemas, Edu, el cuál abarca los subsistemas de Vista, Lógica y Persistencia correspondientes a cada componente y el cuál depende de un api. El otro sistema Com, también incluye los subsistemas de Edu, con la única diferencia de que este sistema es el aplicativo como tal, pues usa componentes, el cargador y un api.
+
 \newpage
 
 \section{Diagrama de Componentes}
@@ -36,11 +49,11 @@ En el caso del sistema de Gestión de Monitoría, se planteó el diseño con 4 c
 \end{figure}
 \newpage
 
-\section{Diagrama de Artefactos}
-
-\newpage
 
 \section{Diagrama de Nodos}
 
 \newpage
+
+
+\section{Métricas}
 
