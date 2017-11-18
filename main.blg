@@ -11,6 +11,8 @@ The style file: plain.bst
 Database file #1: bibliography.bib
 Warning--empty publisher in Bol_2014
 Warning--empty year in Bol_2014
+Warning--empty publisher in Ospina_2012
+Warning--empty year in Ospina_2012
 Warning--empty publisher in Sergio_2015
 Warning--empty year in Sergio_2015
 Warning--empty publisher in Stehen_2003
@@ -19,4 +21,4 @@ Warning--empty publisher in Kendall_2005
 Warning--empty year in Kendall_2005
 Warning--empty publisher in Pressman_2010
 Warning--empty year in Pressman_2010
-(There were 10 warnings)
+(There were 12 warnings)

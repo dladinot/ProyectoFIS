@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.13)  17 NOV 2017 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.13)  17 NOV 2017 22:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -3303,7 +3303,16 @@ Package pdftex.def Info: Pictures/desCertificarHoras.png  used on input line 31
 7. on input line 317.
 Package pdftex.def Info: Requested size: 384.1096pt x 199.24147pt on input line
  317.
+<Pictures/desClasificado.png, id=497, 459.96844pt x 204.01219pt>
+File: Pictures/desClasificado.png Graphic file (type png)
+<use Pictures/desClasificado.png>
+Package pdftex.def Info: Pictures/desClasificado.png  used on input line 325. o
+n input line 325.
+Package pdftex.def Info: Requested size: 384.1096pt x 170.37602pt on input line
+ 325.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
 Package babel Info: Redefining spanish shorthand <<
@@ -3331,38 +3340,36 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 108.
  [41 <./Pictures/desContacto.png> <./Pictures/desCertificarHoras.png>]
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 108.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 108.
+ [42 <./Pictures/desClasificado.png>]
 \openout2 = `uml/diseno.aux'.
 
  (uml/diseno.tex
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2.
- [42
-
-
-
-]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2.
@@ -3376,14 +3383,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-<Pictures/bdiseno.jpg, id=507, 923.45pt x 461.725pt>
+<Pictures/bdiseno.jpg, id=510, 923.45pt x 461.725pt>
 File: Pictures/bdiseno.jpg Graphic file (type jpg)
 <use Pictures/bdiseno.jpg>
 Package pdftex.def Info: Pictures/bdiseno.jpg  used on input line 2. on input l
 ine 2.
 Package pdftex.def Info: Requested size: 597.50787pt x 298.7509pt on input line
  2.
-<Pictures/diseno.jpg, id=508, 642.4pt x 321.2pt>
+<Pictures/diseno.jpg, id=511, 642.4pt x 321.2pt>
 File: Pictures/diseno.jpg Graphic file (type jpg)
 <use Pictures/diseno.jpg>
 Package pdftex.def Info: Pictures/diseno.jpg  used on input line 5. on input li
@@ -3426,7 +3433,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 12.
-[43 <./Pictures/bdiseno.jpg> <./Pictures/diseno.jpg>]
+[43
+
+
+
+ <./Pictures/bdiseno.jpg> <./Pictures/diseno.jpg>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand >>
@@ -3439,14 +3450,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
-<Pictures/dcaLogin.png, id=514, 513.41812pt x 155.83218pt>
+<Pictures/dcaLogin.png, id=517, 513.41812pt x 155.83218pt>
 File: Pictures/dcaLogin.png Graphic file (type png)
 <use Pictures/dcaLogin.png>
 Package pdftex.def Info: Pictures/dcaLogin.png  used on input line 21. on input
  line 21.
 Package pdftex.def Info: Requested size: 426.79135pt x 129.5404pt on input line
  21.
-<Pictures/dcaCertificacion.png, id=515, 536.0025pt x 201.75375pt>
+<Pictures/dcaCertificacion.png, id=518, 536.0025pt x 201.75375pt>
 File: Pictures/dcaCertificacion.png Graphic file (type png)
 <use Pictures/dcaCertificacion.png>
 Package pdftex.def Info: Pictures/dcaCertificacion.png  used on input line 31. 
@@ -3480,14 +3491,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 36.
  [44 <./Pictures/dcaLogin.png> <./Pictures/dcaCertificacion.png>]
-<Pictures/dcaContacto.jpg, id=524, 529.98pt x 218.31563pt>
+<Pictures/dcaContacto.jpg, id=527, 529.98pt x 218.31563pt>
 File: Pictures/dcaContacto.jpg Graphic file (type jpg)
 <use Pictures/dcaContacto.jpg>
 Package pdftex.def Info: Pictures/dcaContacto.jpg  used on input line 41. on in
 put line 41.
 Package pdftex.def Info: Requested size: 426.79135pt x 175.81198pt on input lin
 e 41.
-<Pictures/dcaClasificados.jpg, id=525, 500.62032pt x 378.66469pt>
+<Pictures/dcaClasificados.jpg, id=528, 500.62032pt x 378.66469pt>
 File: Pictures/dcaClasificados.jpg Graphic file (type jpg)
 <use Pictures/dcaClasificados.jpg>
 Package pdftex.def Info: Pictures/dcaClasificados.jpg  used on input line 51. o
@@ -3523,7 +3534,7 @@ Package babel Info: Redefining spanish shorthand "?
  [45
 
  <./Pictures/dcaContacto.jpg> <./Pictures/dcaClasificados.jpg>]
-<Pictures/dcaCertificarHoras.jpg, id=532, 511.9125pt x 313.17pt>
+<Pictures/dcaCertificarHoras.jpg, id=535, 511.9125pt x 313.17pt>
 File: Pictures/dcaCertificarHoras.jpg Graphic file (type jpg)
 <use Pictures/dcaCertificarHoras.jpg>
 Package pdftex.def Info: Pictures/dcaCertificarHoras.jpg  used on input line 61
@@ -3571,14 +3582,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
-<Pictures/dcGeneral.png, id=539, 1076.52188pt x 434.37282pt>
+<Pictures/dcGeneral.png, id=542, 1076.52188pt x 434.37282pt>
 File: Pictures/dcGeneral.png Graphic file (type png)
 <use Pictures/dcGeneral.png>
 Package pdftex.def Info: Pictures/dcGeneral.png  used on input line 80. on inpu
 t line 80.
 Package pdftex.def Info: Requested size: 426.79135pt x 172.20834pt on input lin
 e 80.
-<Pictures/dclogin.png, id=540, 415.5525pt x 274.02374pt>
+<Pictures/dclogin.png, id=543, 415.5525pt x 274.02374pt>
 File: Pictures/dclogin.png Graphic file (type png)
 <use Pictures/dclogin.png>
 Package pdftex.def Info: Pictures/dclogin.png  used on input line 90. on input 
@@ -3612,7 +3623,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 96.
  [47 <./Pictures/dcGeneral.png> <./Pictures/dclogin.png>]
-<Pictures/DiagramaClases.jpg, id=550, 411.78844pt x 374.14781pt>
+<Pictures/DiagramaClases.jpg, id=553, 411.78844pt x 374.14781pt>
 File: Pictures/DiagramaClases.jpg Graphic file (type jpg)
 <use Pictures/DiagramaClases.jpg>
 Package pdftex.def Info: Pictures/DiagramaClases.jpg  used on input line 101. o
@@ -3646,7 +3657,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 107.
  [48 <./Pictures/DiagramaClases.jpg>]
-<Pictures/dcContacto.jpg, id=556, 412.54124pt x 291.33844pt>
+<Pictures/dcContacto.jpg, id=559, 412.54124pt x 291.33844pt>
 File: Pictures/dcContacto.jpg Graphic file (type jpg)
 <use Pictures/dcContacto.jpg>
 Package pdftex.def Info: Pictures/dcContacto.jpg  used on input line 111. on in
@@ -3680,7 +3691,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 116.
  [49 <./Pictures/dcContacto.jpg>]
-<Pictures/dcClasificado.png, id=563, 336.50719pt x 302.63063pt>
+<Pictures/dcClasificado.png, id=566, 336.50719pt x 302.63063pt>
 File: Pictures/dcClasificado.png Graphic file (type png)
 <use Pictures/dcClasificado.png>
 Package pdftex.def Info: Pictures/dcClasificado.png  used on input line 122. on
@@ -3716,7 +3727,7 @@ Package babel Info: Redefining spanish shorthand "?
  [50
 
  <./Pictures/dcClasificado.png>]
-<Pictures/dcCertifi.png, id=570, 513.41812pt x 252.945pt>
+<Pictures/dcCertifi.png, id=573, 513.41812pt x 252.945pt>
 File: Pictures/dcCertifi.png Graphic file (type png)
 <use Pictures/dcCertifi.png>
 Package pdftex.def Info: Pictures/dcCertifi.png  used on input line 131. on inp
@@ -3796,7 +3807,7 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 167.
-<Pictures/estructuraSingleton.png, id=589, 372.39125pt x 304.13625pt>
+<Pictures/estructuraSingleton.png, id=592, 372.39125pt x 304.13625pt>
 File: Pictures/estructuraSingleton.png Graphic file (type png)
 <use Pictures/estructuraSingleton.png>
 Package pdftex.def Info: Pictures/estructuraSingleton.png  used on input line 1
@@ -3808,7 +3819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--178
 
  []
 
-<Pictures/singleton.jpg, id=590, 292.09125pt x 251.94125pt>
+<Pictures/singleton.jpg, id=593, 292.09125pt x 251.94125pt>
 File: Pictures/singleton.jpg Graphic file (type jpg)
 <use Pictures/singleton.jpg>
 Package pdftex.def Info: Pictures/singleton.jpg  used on input line 183. on inp
@@ -3847,7 +3858,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 190.
 [53 <./Pictures/estructuraSingleton.png> <./Pictures/singleton.jpg>]
-<Pictures/fachada.png, id=601, 205.5178pt x 70.01157pt>
+<Pictures/fachada.png, id=604, 205.5178pt x 70.01157pt>
 File: Pictures/fachada.png Graphic file (type png)
 <use Pictures/fachada.png>
 Package pdftex.def Info: Pictures/fachada.png  used on input line 216. on input
@@ -3859,7 +3870,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--220
 
  []
 
-<Pictures/dcFachada.jpg, id=602, 237.13594pt x 109.1578pt>
+<Pictures/dcFachada.jpg, id=605, 237.13594pt x 109.1578pt>
 File: Pictures/dcFachada.jpg Graphic file (type jpg)
 <use Pictures/dcFachada.jpg>
 Package pdftex.def Info: Pictures/dcFachada.jpg  used on input line 224. on inp
@@ -3893,14 +3904,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 230.
 [54 <./Pictures/fachada.png> <./Pictures/dcFachada.jpg>]
-<Pictures/PatronComponente.png, id=620, 733.74126pt x 436.63126pt>
+<Pictures/PatronComponente.png, id=623, 733.74126pt x 436.63126pt>
 File: Pictures/PatronComponente.png Graphic file (type png)
 <use Pictures/PatronComponente.png>
 Package pdftex.def Info: Pictures/PatronComponente.png  used on input line 235.
  on input line 235.
 Package pdftex.def Info: Requested size: 341.43437pt x 203.18466pt on input lin
 e 235.
-<Pictures/composite.png, id=621, 532.99126pt x 345.29pt>
+<Pictures/composite.png, id=624, 532.99126pt x 345.29pt>
 File: Pictures/composite.png Graphic file (type png)
 <use Pictures/composite.png>
 Package pdftex.def Info: Pictures/composite.png  used on input line 244. on inp
@@ -3939,7 +3950,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 250.
 [55 <./Pictures/PatronComponente.png> <./Pictures/composite.png>]
-<Pictures/proxyestruct.png, id=633, 319.1925pt x 220.57407pt>
+<Pictures/proxyestruct.png, id=636, 319.1925pt x 220.57407pt>
 File: Pictures/proxyestruct.png Graphic file (type png)
 <use Pictures/proxyestruct.png>
 Package pdftex.def Info: Pictures/proxyestruct.png  used on input line 258. on 
@@ -3951,7 +3962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--262
 
  []
 
-<Pictures/dcProxy.png, id=634, 427.5975pt x 286.82156pt>
+<Pictures/dcProxy.png, id=637, 427.5975pt x 286.82156pt>
 File: Pictures/dcProxy.png Graphic file (type png)
 <use Pictures/dcProxy.png>
 Package pdftex.def Info: Pictures/dcProxy.png  used on input line 266. on input
@@ -3985,7 +3996,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 272.
 [56 <./Pictures/proxyestruct.png> <./Pictures/dcProxy.png>]
-<Pictures/mComando.jpg, id=645, 582.67688pt x 277.035pt>
+<Pictures/mComando.jpg, id=648, 582.67688pt x 277.035pt>
 File: Pictures/mComando.jpg Graphic file (type jpg)
 <use Pictures/mComando.jpg>
 Package pdftex.def Info: Pictures/mComando.jpg  used on input line 297. on inpu
@@ -4019,7 +4030,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 302.
  [57 <./Pictures/mComando.jpg>]
-<Pictures/ceComando.png, id=664, 698.61pt x 325.96782pt>
+<Pictures/ceComando.png, id=667, 698.61pt x 325.96782pt>
 File: Pictures/ceComando.png Graphic file (type png)
 <use Pictures/ceComando.png>
 Package pdftex.def Info: Pictures/ceComando.png  used on input line 306. on inp
@@ -4076,7 +4087,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-<Pictures/arquitectos-tenerife.jpg, id=670, 923.45pt x 461.725pt>
+<Pictures/arquitectos-tenerife.jpg, id=673, 923.45pt x 461.725pt>
 File: Pictures/arquitectos-tenerife.jpg Graphic file (type jpg)
 <use Pictures/arquitectos-tenerife.jpg>
 Package pdftex.def Info: Pictures/arquitectos-tenerife.jpg  used on input line 
@@ -4136,7 +4147,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
-<Pictures/dSistemas.png, id=675, 606.01407pt x 267.24844pt>
+<Pictures/dSistemas.png, id=680, 606.01407pt x 267.24844pt>
 File: Pictures/dSistemas.png Graphic file (type png)
 <use Pictures/dSistemas.png>
 Package pdftex.def Info: Pictures/dSistemas.png  used on input line 16. on inpu
@@ -4182,14 +4193,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
-<Pictures/componentes.png, id=682, 325.96782pt x 118.94438pt>
+<Pictures/componentes.png, id=687, 325.96782pt x 118.94438pt>
 File: Pictures/componentes.png Graphic file (type png)
 <use Pictures/componentes.png>
 Package pdftex.def Info: Pictures/componentes.png  used on input line 29. on in
 put line 29.
 Package pdftex.def Info: Requested size: 298.75264pt x 109.02177pt on input lin
 e 29.
-<Pictures/dComponentes.png, id=684, 373.395pt x 237.88875pt>
+<Pictures/dComponentes.png, id=689, 373.395pt x 237.88875pt>
 File: Pictures/dComponentes.png Graphic file (type png)
 <use Pictures/dComponentes.png>
 Package pdftex.def Info: Pictures/dComponentes.png  used on input line 46. on i
@@ -4302,14 +4313,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 108.
  [63]
-<Pictures/mComposicion.png, id=707, 564.60938pt x 161.10187pt>
+<Pictures/mComposicion.png, id=712, 564.60938pt x 161.10187pt>
 File: Pictures/mComposicion.png Graphic file (type png)
 <use Pictures/mComposicion.png>
 Package pdftex.def Info: Pictures/mComposicion.png  used on input line 123. on 
 input line 123.
 Package pdftex.def Info: Requested size: 426.79135pt x 121.77988pt on input lin
 e 123.
-<Pictures/mCount.png, id=708, 203.25937pt x 121.20282pt>
+<Pictures/mCount.png, id=713, 203.25937pt x 121.20282pt>
 File: Pictures/mCount.png Graphic file (type png)
 <use Pictures/mCount.png>
 Package pdftex.def Info: Pictures/mCount.png  used on input line 131. on input 
@@ -4344,21 +4355,21 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 137.
 
 [64 <./Pictures/mComposicion.png> <./Pictures/mCount.png>]
-<Pictures/mComplejidad.png, id=717, 204.01219pt x 112.92188pt>
+<Pictures/mComplejidad.png, id=722, 204.01219pt x 112.92188pt>
 File: Pictures/mComplejidad.png Graphic file (type png)
 <use Pictures/mComplejidad.png>
 Package pdftex.def Info: Pictures/mComplejidad.png  used on input line 142. on 
 input line 142.
 Package pdftex.def Info: Requested size: 256.07741pt x 141.74815pt on input lin
 e 142.
-<Pictures/mRobin.png, id=718, 194.22563pt x 28.60687pt>
+<Pictures/mRobin.png, id=723, 194.22563pt x 28.60687pt>
 File: Pictures/mRobin.png Graphic file (type png)
 <use Pictures/mRobin.png>
 Package pdftex.def Info: Pictures/mRobin.png  used on input line 151. on input 
 line 151.
 Package pdftex.def Info: Requested size: 256.07741pt x 37.71796pt on input line
  151.
-<Pictures/mChidamber.png, id=719, 193.47281pt x 79.04532pt>
+<Pictures/mChidamber.png, id=724, 193.47281pt x 79.04532pt>
 File: Pictures/mChidamber.png Graphic file (type png)
 <use Pictures/mChidamber.png>
 Package pdftex.def Info: Pictures/mChidamber.png  used on input line 159. on in
@@ -4395,14 +4406,14 @@ Package babel Info: Redefining spanish shorthand "?
 
  <./Pictures/mComplejidad.png> <./Pictures/mRobin.png> <./Pictures/mChidamber.p
 ng>]
-<Pictures/mOverview.png, id=730, 319.94531pt x 137.01187pt>
+<Pictures/mOverview.png, id=735, 319.94531pt x 137.01187pt>
 File: Pictures/mOverview.png Graphic file (type png)
 <use Pictures/mOverview.png>
 Package pdftex.def Info: Pictures/mOverview.png  used on input line 168. on inp
 ut line 168.
 Package pdftex.def Info: Requested size: 341.43437pt x 146.21657pt on input lin
 e 168.
-<Pictures/mPolucion.png, id=731, 595.47469pt x 335.00156pt>
+<Pictures/mPolucion.png, id=736, 595.47469pt x 335.00156pt>
 File: Pictures/mPolucion.png Graphic file (type png)
 <use Pictures/mPolucion.png>
 Package pdftex.def Info: Pictures/mPolucion.png  used on input line 175. on inp
@@ -4438,35 +4449,35 @@ Package babel Info: Redefining spanish shorthand "?
  [66
 
  <./Pictures/mOverview.png> <./Pictures/mPolucion.png>]
-<Pictures/mComposicionApi.png, id=740, 166.37157pt x 53.44969pt>
+<Pictures/mComposicionApi.png, id=745, 166.37157pt x 53.44969pt>
 File: Pictures/mComposicionApi.png Graphic file (type png)
 <use Pictures/mComposicionApi.png>
 Package pdftex.def Info: Pictures/mComposicionApi.png  used on input line 186. 
 on input line 186.
 Package pdftex.def Info: Requested size: 170.71393pt x 54.84824pt on input line
  186.
-<Pictures/mAcoplamientoApi.png, id=741, 150.5625pt x 73.77562pt>
+<Pictures/mAcoplamientoApi.png, id=746, 150.5625pt x 73.77562pt>
 File: Pictures/mAcoplamientoApi.png Graphic file (type png)
 <use Pictures/mAcoplamientoApi.png>
 Package pdftex.def Info: Pictures/mAcoplamientoApi.png  used on input line 194.
  on input line 194.
 Package pdftex.def Info: Requested size: 170.71393pt x 83.65814pt on input line
  194.
-<Pictures/mCountApi.png, id=742, 280.79906pt x 82.80937pt>
+<Pictures/mCountApi.png, id=747, 280.79906pt x 82.80937pt>
 File: Pictures/mCountApi.png Graphic file (type png)
 <use Pictures/mCountApi.png>
 Package pdftex.def Info: Pictures/mCountApi.png  used on input line 202. on inp
 ut line 202.
 Package pdftex.def Info: Requested size: 256.07741pt x 75.52216pt on input line
  202.
-<Pictures/mComplejidadApi.png, id=743, 282.30469pt x 39.89906pt>
+<Pictures/mComplejidadApi.png, id=748, 282.30469pt x 39.89906pt>
 File: Pictures/mComplejidadApi.png Graphic file (type png)
 <use Pictures/mComplejidadApi.png>
 Package pdftex.def Info: Pictures/mComplejidadApi.png  used on input line 210. 
 on input line 210.
 Package pdftex.def Info: Requested size: 256.07741pt x 36.19493pt on input line
  210.
-<Pictures/mRobinApi.png, id=744, 280.79906pt x 67.75313pt>
+<Pictures/mRobinApi.png, id=749, 280.79906pt x 67.75313pt>
 File: Pictures/mRobinApi.png Graphic file (type png)
 <use Pictures/mRobinApi.png>
 Package pdftex.def Info: Pictures/mRobinApi.png  used on input line 219. on inp
@@ -4502,14 +4513,14 @@ Package babel Info: Redefining spanish shorthand "?
  [67 <./Pictures/mComposicionApi.png> <./Pictures/mAcoplamientoApi.png> <./Pict
 ures/mCountApi.png> <./Pictures/mComplejidadApi.png> <./Pictures/mRobinApi.png>
 ]
-<Pictures/mChidamberApi.png, id=760, 277.035pt x 79.04532pt>
+<Pictures/mChidamberApi.png, id=765, 277.035pt x 79.04532pt>
 File: Pictures/mChidamberApi.png Graphic file (type png)
 <use Pictures/mChidamberApi.png>
 Package pdftex.def Info: Pictures/mChidamberApi.png  used on input line 228. on
  input line 228.
 Package pdftex.def Info: Requested size: 256.07741pt x 73.0663pt on input line 
 228.
-<Pictures/mdistanciaApi.png, id=761, 344.03531pt x 336.50719pt>
+<Pictures/mdistanciaApi.png, id=766, 344.03531pt x 336.50719pt>
 File: Pictures/mdistanciaApi.png Graphic file (type png)
 <use Pictures/mdistanciaApi.png>
 Package pdftex.def Info: Pictures/mdistanciaApi.png  used on input line 236. on
@@ -4545,35 +4556,35 @@ Package babel Info: Redefining spanish shorthand "?
  [68
 
  <./Pictures/mChidamberApi.png> <./Pictures/mdistanciaApi.png>]
-<Pictures/mComposicionUtil.png, id=770, 102.3825pt x 64.74188pt>
+<Pictures/mComposicionUtil.png, id=775, 102.3825pt x 64.74188pt>
 File: Pictures/mComposicionUtil.png Graphic file (type png)
 <use Pictures/mComposicionUtil.png>
 Package pdftex.def Info: Pictures/mComposicionUtil.png  used on input line 247.
  on input line 247.
 Package pdftex.def Info: Requested size: 85.35696pt x 53.97876pt on input line 
 247.
-<Pictures/mAcoplamientoUtil.png, id=771, 173.89969pt x 73.77562pt>
+<Pictures/mAcoplamientoUtil.png, id=776, 173.89969pt x 73.77562pt>
 File: Pictures/mAcoplamientoUtil.png Graphic file (type png)
 <use Pictures/mAcoplamientoUtil.png>
 Package pdftex.def Info: Pictures/mAcoplamientoUtil.png  used on input line 255
 . on input line 255.
 Package pdftex.def Info: Requested size: 170.71393pt x 72.4268pt on input line 
 255.
-<Pictures/mCountUtil.png, id=772, 280.04625pt x 82.80937pt>
+<Pictures/mCountUtil.png, id=777, 280.04625pt x 82.80937pt>
 File: Pictures/mCountUtil.png Graphic file (type png)
 <use Pictures/mCountUtil.png>
 Package pdftex.def Info: Pictures/mCountUtil.png  used on input line 263. on in
 put line 263.
 Package pdftex.def Info: Requested size: 256.07741pt x 75.72559pt on input line
  263.
-<Pictures/mComplejidadUtil.png, id=773, 280.79906pt x 41.4047pt>
+<Pictures/mComplejidadUtil.png, id=778, 280.79906pt x 41.4047pt>
 File: Pictures/mComplejidadUtil.png Graphic file (type png)
 <use Pictures/mComplejidadUtil.png>
 Package pdftex.def Info: Pictures/mComplejidadUtil.png  used on input line 271.
  on input line 271.
 Package pdftex.def Info: Requested size: 256.07741pt x 37.76106pt on input line
  271.
-<Pictures/mRobinUtil.png, id=774, 278.54062pt x 70.01157pt>
+<Pictures/mRobinUtil.png, id=779, 278.54062pt x 70.01157pt>
 File: Pictures/mRobinUtil.png Graphic file (type png)
 <use Pictures/mRobinUtil.png>
 Package pdftex.def Info: Pictures/mRobinUtil.png  used on input line 280. on in
@@ -4609,14 +4620,14 @@ Package babel Info: Redefining spanish shorthand "?
  [69 <./Pictures/mComposicionUtil.png> <./Pictures/mAcoplamientoUtil.png> <./Pi
 ctures/mCountUtil.png> <./Pictures/mComplejidadUtil.png> <./Pictures/mRobinUtil
 .png>]
-<Pictures/mChidamberUtil.png, id=789, 279.29344pt x 82.80937pt>
+<Pictures/mChidamberUtil.png, id=794, 279.29344pt x 82.80937pt>
 File: Pictures/mChidamberUtil.png Graphic file (type png)
 <use Pictures/mChidamberUtil.png>
 Package pdftex.def Info: Pictures/mChidamberUtil.png  used on input line 289. o
 n input line 289.
 Package pdftex.def Info: Requested size: 256.07741pt x 75.92776pt on input line
  289.
-<Pictures/mdistanciaUtil.png, id=790, 342.5297pt x 338.76563pt>
+<Pictures/mdistanciaUtil.png, id=795, 342.5297pt x 338.76563pt>
 File: Pictures/mdistanciaUtil.png Graphic file (type png)
 <use Pictures/mdistanciaUtil.png>
 Package pdftex.def Info: Pictures/mdistanciaUtil.png  used on input line 297. o
@@ -4652,28 +4663,28 @@ Package babel Info: Redefining spanish shorthand "?
  [70
 
  <./Pictures/mChidamberUtil.png> <./Pictures/mdistanciaUtil.png>]
-<Pictures/mComposicionCom.png, id=799, 258.21469pt x 53.44969pt>
+<Pictures/mComposicionCom.png, id=804, 258.21469pt x 53.44969pt>
 File: Pictures/mComposicionCom.png Graphic file (type png)
 <use Pictures/mComposicionCom.png>
 Package pdftex.def Info: Pictures/mComposicionCom.png  used on input line 309. 
 on input line 309.
 Package pdftex.def Info: Requested size: 170.71393pt x 35.33806pt on input line
  309.
-<Pictures/mAcoplamientoCom.png, id=800, 143.78719pt x 95.6072pt>
+<Pictures/mAcoplamientoCom.png, id=805, 143.78719pt x 95.6072pt>
 File: Pictures/mAcoplamientoCom.png Graphic file (type png)
 <use Pictures/mAcoplamientoCom.png>
 Package pdftex.def Info: Pictures/mAcoplamientoCom.png  used on input line 317.
  on input line 317.
 Package pdftex.def Info: Requested size: 170.71393pt x 113.51573pt on input lin
 e 317.
-<Pictures/mCountCom.png, id=801, 290.58563pt x 81.30376pt>
+<Pictures/mCountCom.png, id=806, 290.58563pt x 81.30376pt>
 File: Pictures/mCountCom.png Graphic file (type png)
 <use Pictures/mCountCom.png>
 Package pdftex.def Info: Pictures/mCountCom.png  used on input line 325. on inp
 ut line 325.
 Package pdftex.def Info: Requested size: 256.07741pt x 71.65295pt on input line
  325.
-<Pictures/mComplejidadCom.png, id=802, 291.33844pt x 41.4047pt>
+<Pictures/mComplejidadCom.png, id=807, 291.33844pt x 41.4047pt>
 File: Pictures/mComplejidadCom.png Graphic file (type png)
 <use Pictures/mComplejidadCom.png>
 Package pdftex.def Info: Pictures/mComplejidadCom.png  used on input line 333. 
@@ -4708,7 +4719,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 338.
  [71 <./Pictures/mComposicionCom.png> <./Pictures/mAcoplamientoCom.png> <./Pict
 ures/mCountCom.png> <./Pictures/mComplejidadCom.png>]
-<Pictures/mdistanciaCom.png, id=815, 350.05782pt x 337.26pt>
+<Pictures/mdistanciaCom.png, id=820, 350.05782pt x 337.26pt>
 File: Pictures/mdistanciaCom.png Graphic file (type png)
 <use Pictures/mdistanciaCom.png>
 Package pdftex.def Info: Pictures/mdistanciaCom.png  used on input line 342. on
@@ -4744,28 +4755,28 @@ Package babel Info: Redefining spanish shorthand "?
  [72
 
  <./Pictures/mdistanciaCom.png>]
-<Pictures/mComposicionEdu.png, id=822, 259.7203pt x 69.25874pt>
+<Pictures/mComposicionEdu.png, id=827, 259.7203pt x 69.25874pt>
 File: Pictures/mComposicionEdu.png Graphic file (type png)
 <use Pictures/mComposicionEdu.png>
 Package pdftex.def Info: Pictures/mComposicionEdu.png  used on input line 354. 
 on input line 354.
 Package pdftex.def Info: Requested size: 170.71393pt x 45.52383pt on input line
  354.
-<Pictures/mAcoplamientoEdu.png, id=823, 151.3153pt x 77.53969pt>
+<Pictures/mAcoplamientoEdu.png, id=828, 151.3153pt x 77.53969pt>
 File: Pictures/mAcoplamientoEdu.png Graphic file (type png)
 <use Pictures/mAcoplamientoEdu.png>
 Package pdftex.def Info: Pictures/mAcoplamientoEdu.png  used on input line 362.
  on input line 362.
 Package pdftex.def Info: Requested size: 170.71393pt x 87.48155pt on input line
  362.
-<Pictures/mCountEdu.png, id=824, 286.82156pt x 81.30376pt>
+<Pictures/mCountEdu.png, id=829, 286.82156pt x 81.30376pt>
 File: Pictures/mCountEdu.png Graphic file (type png)
 <use Pictures/mCountEdu.png>
 Package pdftex.def Info: Pictures/mCountEdu.png  used on input line 370. on inp
 ut line 370.
 Package pdftex.def Info: Requested size: 256.07741pt x 72.59085pt on input line
  370.
-<Pictures/mComplejidadEdu.png, id=825, 293.59688pt x 42.91031pt>
+<Pictures/mComplejidadEdu.png, id=830, 293.59688pt x 42.91031pt>
 File: Pictures/mComplejidadEdu.png Graphic file (type png)
 <use Pictures/mComplejidadEdu.png>
 Package pdftex.def Info: Pictures/mComplejidadEdu.png  used on input line 378. 
@@ -4800,7 +4811,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 383.
  [73 <./Pictures/mComposicionEdu.png> <./Pictures/mAcoplamientoEdu.png> <./Pict
 ures/mCountEdu.png> <./Pictures/mComplejidadEdu.png>]
-<Pictures/mdistanciaEdu.png, id=839, 349.305pt x 337.26pt>
+<Pictures/mdistanciaEdu.png, id=844, 349.305pt x 337.26pt>
 File: Pictures/mdistanciaEdu.png Graphic file (type png)
 <use Pictures/mdistanciaEdu.png>
 Package pdftex.def Info: Pictures/mdistanciaEdu.png  used on input line 387. on
@@ -4923,7 +4934,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-<Pictures/754559_image12520430_0.jpg, id=862, 923.45pt x 461.725pt>
+<Pictures/754559_image12520430_0.jpg, id=867, 923.45pt x 461.725pt>
 File: Pictures/754559_image12520430_0.jpg Graphic file (type jpg)
 <use Pictures/754559_image12520430_0.jpg>
 Package pdftex.def Info: Pictures/754559_image12520430_0.jpg  used on input lin
@@ -5005,7 +5016,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-<Pictures/Predicciones-del-furturo-del-retail-de-moda-para-el-2020.jpg, id=871,
+<Pictures/Predicciones-del-furturo-del-retail-de-moda-para-el-2020.jpg, id=876,
  923.45pt x 461.725pt>
 File: Pictures/Predicciones-del-furturo-del-retail-de-moda-para-el-2020.jpg Gra
 phic file (type jpg)
@@ -5085,7 +5096,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
-<Pictures/addb4870c144badba811c06724df8512.jpg, id=881, 664.884pt x 332.442pt>
+<Pictures/addb4870c144badba811c06724df8512.jpg, id=886, 664.884pt x 332.442pt>
 File: Pictures/addb4870c144badba811c06724df8512.jpg Graphic file (type jpg)
 <use Pictures/addb4870c144badba811c06724df8512.jpg>
 Package pdftex.def Info: Pictures/addb4870c144badba811c06724df8512.jpg  used on
@@ -5104,21 +5115,21 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-<Pictures/codSingleton.png, id=882, 506.89375pt x 208.78pt>
+<Pictures/codSingleton.png, id=887, 506.89375pt x 208.78pt>
 File: Pictures/codSingleton.png Graphic file (type png)
 <use Pictures/codSingleton.png>
 Package pdftex.def Info: Pictures/codSingleton.png  used on input line 8. on in
 put line 8.
 Package pdftex.def Info: Requested size: 341.43437pt x 140.63368pt on input lin
 e 8.
-<Pictures/codSingleton1.png, id=883, 421.575pt x 122.4575pt>
+<Pictures/codSingleton1.png, id=888, 421.575pt x 122.4575pt>
 File: Pictures/codSingleton1.png Graphic file (type png)
 <use Pictures/codSingleton1.png>
 Package pdftex.def Info: Pictures/codSingleton1.png  used on input line 15. on 
 input line 15.
 Package pdftex.def Info: Requested size: 341.43437pt x 99.18066pt on input line
  15.
-<Pictures/codSingleton2.png, id=884, 468.75125pt x 127.47626pt>
+<Pictures/codSingleton2.png, id=889, 468.75125pt x 127.47626pt>
 File: Pictures/codSingleton2.png Graphic file (type png)
 <use Pictures/codSingleton2.png>
 Package pdftex.def Info: Pictures/codSingleton2.png  used on input line 22. on 
@@ -5154,7 +5165,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 27.
  [81 <./Pictures/addb4870c144badba811c06724df8512.jpg> <./Pictures/codSingleton
 .png> <./Pictures/codSingleton1.png>]
-<Pictures/codfachada1.png, id=893, 192.72pt x 88.07906pt>
+<Pictures/codfachada1.png, id=898, 192.72pt x 88.07906pt>
 File: Pictures/codfachada1.png Graphic file (type png)
 <use Pictures/codfachada1.png>
 Package pdftex.def Info: Pictures/codfachada1.png  used on input line 30. on in
@@ -5188,14 +5199,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 34.
  [82 <./Pictures/codSingleton2.png> <./Pictures/codfachada1.png>]
-<Pictures/codfachada2.png, id=902, 412.54124pt x 505.13719pt>
+<Pictures/codfachada2.png, id=907, 412.54124pt x 505.13719pt>
 File: Pictures/codfachada2.png Graphic file (type png)
 <use Pictures/codfachada2.png>
 Package pdftex.def Info: Pictures/codfachada2.png  used on input line 37. on in
 put line 37.
 Package pdftex.def Info: Requested size: 426.79135pt x 522.59402pt on input lin
 e 37.
-<Pictures/codfachada3.png, id=903, 454.69875pt x 484.05844pt>
+<Pictures/codfachada3.png, id=908, 454.69875pt x 484.05844pt>
 File: Pictures/codfachada3.png Graphic file (type png)
 <use Pictures/codfachada3.png>
 Package pdftex.def Info: Pictures/codfachada3.png  used on input line 44. on in
@@ -5234,7 +5245,7 @@ Package babel Info: Redefining spanish shorthand "?
  [83
 
  <./Pictures/codfachada2.png>]
-<Pictures/codComposite.png, id=910, 349.305pt x 127.47626pt>
+<Pictures/codComposite.png, id=915, 349.305pt x 127.47626pt>
 File: Pictures/codComposite.png Graphic file (type png)
 <use Pictures/codComposite.png>
 Package pdftex.def Info: Pictures/codComposite.png  used on input line 52. on i
@@ -5268,21 +5279,21 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
  [84 <./Pictures/codfachada3.png> <./Pictures/codComposite.png>]
-<Pictures/codComposite1.png, id=919, 703.62875pt x 387.4475pt>
+<Pictures/codComposite1.png, id=924, 703.62875pt x 387.4475pt>
 File: Pictures/codComposite1.png Graphic file (type png)
 <use Pictures/codComposite1.png>
 Package pdftex.def Info: Pictures/codComposite1.png  used on input line 60. on 
 input line 60.
 Package pdftex.def Info: Requested size: 426.79135pt x 235.00652pt on input lin
 e 60.
-<Pictures/codComposite2.png, id=920, 483.8075pt x 459.7175pt>
+<Pictures/codComposite2.png, id=925, 483.8075pt x 459.7175pt>
 File: Pictures/codComposite2.png Graphic file (type png)
 <use Pictures/codComposite2.png>
 Package pdftex.def Info: Pictures/codComposite2.png  used on input line 67. on 
 input line 67.
 Package pdftex.def Info: Requested size: 341.43437pt x 324.4446pt on input line
  67.
-<Pictures/codproxy5.png, id=921, 460.72125pt x 140.02313pt>
+<Pictures/codproxy5.png, id=926, 460.72125pt x 140.02313pt>
 File: Pictures/codproxy5.png Graphic file (type png)
 <use Pictures/codproxy5.png>
 Package pdftex.def Info: Pictures/codproxy5.png  used on input line 75. on inpu
@@ -5321,7 +5332,7 @@ Package babel Info: Redefining spanish shorthand "?
  [85
 
  <./Pictures/codComposite1.png> <./Pictures/codComposite2.png>]
-<Pictures/codproxy1.png, id=931, 289.83281pt x 94.10156pt>
+<Pictures/codproxy1.png, id=936, 289.83281pt x 94.10156pt>
 File: Pictures/codproxy1.png Graphic file (type png)
 <use Pictures/codproxy1.png>
 Package pdftex.def Info: Pictures/codproxy1.png  used on input line 83. on inpu
@@ -5355,21 +5366,21 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 89.
  [86 <./Pictures/codproxy5.png> <./Pictures/codproxy1.png>]
-<Pictures/codproxy2.png, id=940, 248.42813pt x 533.74406pt>
+<Pictures/codproxy2.png, id=945, 248.42813pt x 533.74406pt>
 File: Pictures/codproxy2.png Graphic file (type png)
 <use Pictures/codproxy2.png>
 Package pdftex.def Info: Pictures/codproxy2.png  used on input line 92. on inpu
 t line 92.
 Package pdftex.def Info: Requested size: 298.75264pt x 641.91492pt on input lin
 e 92.
-<Pictures/codproxy3.png, id=941, 367.3725pt x 551.05875pt>
+<Pictures/codproxy3.png, id=946, 367.3725pt x 551.05875pt>
 File: Pictures/codproxy3.png Graphic file (type png)
 <use Pictures/codproxy3.png>
 Package pdftex.def Info: Pictures/codproxy3.png  used on input line 99. on inpu
 t line 99.
 Package pdftex.def Info: Requested size: 426.79135pt x 640.22919pt on input lin
 e 99.
-<Pictures/codproxy4.png, id=942, 249.93375pt x 118.19156pt>
+<Pictures/codproxy4.png, id=947, 249.93375pt x 118.19156pt>
 File: Pictures/codproxy4.png Graphic file (type png)
 <use Pictures/codproxy4.png>
 Package pdftex.def Info: Pictures/codproxy4.png  used on input line 105. on inp
@@ -5437,14 +5448,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 109.
  [88 <./Pictures/codproxy3.png>]
-<Pictures/codComando1.png, id=954, 390.70969pt x 253.69781pt>
+<Pictures/codComando1.png, id=959, 390.70969pt x 253.69781pt>
 File: Pictures/codComando1.png Graphic file (type png)
 <use Pictures/codComando1.png>
 Package pdftex.def Info: Pictures/codComando1.png  used on input line 113. on i
 nput line 113.
 Package pdftex.def Info: Requested size: 341.43437pt x 221.71405pt on input lin
 e 113.
-<Pictures/codComando3.png, id=955, 245.41687pt x 87.32625pt>
+<Pictures/codComando3.png, id=960, 245.41687pt x 87.32625pt>
 File: Pictures/codComando3.png Graphic file (type png)
 <use Pictures/codComando3.png>
 Package pdftex.def Info: Pictures/codComando3.png  used on input line 120. on i
@@ -5479,14 +5490,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 126.
  [89 <./Pictures/codproxy4.png> <./Pictures/codComando1.png> <./Pictures/codCom
 ando3.png>]
-<Pictures/codComando2.png, id=966, 499.11469pt x 432.86719pt>
+<Pictures/codComando2.png, id=971, 499.11469pt x 432.86719pt>
 File: Pictures/codComando2.png Graphic file (type png)
 <use Pictures/codComando2.png>
 Package pdftex.def Info: Pictures/codComando2.png  used on input line 129. on i
 nput line 129.
 Package pdftex.def Info: Requested size: 341.43437pt x 296.12253pt on input lin
 e 129.
-<Pictures/codComando4.png, id=967, 370.38374pt x 228.10219pt>
+<Pictures/codComando4.png, id=972, 370.38374pt x 228.10219pt>
 File: Pictures/codComando4.png Graphic file (type png)
 <use Pictures/codComando4.png>
 Package pdftex.def Info: Pictures/codComando4.png  used on input line 138. on i
@@ -5522,14 +5533,14 @@ Package babel Info: Redefining spanish shorthand "?
  [90
 
  <./Pictures/codComando2.png> <./Pictures/codComando4.png>]
-<Pictures/codComando5.png, id=977, 360.59718pt x 228.10219pt>
+<Pictures/codComando5.png, id=982, 360.59718pt x 228.10219pt>
 File: Pictures/codComando5.png Graphic file (type png)
 <use Pictures/codComando5.png>
 Package pdftex.def Info: Pictures/codComando5.png  used on input line 146. on i
 nput line 146.
 Package pdftex.def Info: Requested size: 426.79135pt x 269.97615pt on input lin
 e 146.
-<Pictures/codComando6.png, id=978, 402.00188pt x 227.34938pt>
+<Pictures/codComando6.png, id=983, 402.00188pt x 227.34938pt>
 File: Pictures/codComando6.png Graphic file (type png)
 <use Pictures/codComando6.png>
 Package pdftex.def Info: Pictures/codComando6.png  used on input line 154. on i
@@ -5565,14 +5576,14 @@ Package babel Info: Redefining spanish shorthand "?
  [91
 
  <./Pictures/codComando5.png> <./Pictures/codComando6.png>]
-<Pictures/codComando7.png, id=988, 376.40625pt x 228.855pt>
+<Pictures/codComando7.png, id=993, 376.40625pt x 228.855pt>
 File: Pictures/codComando7.png Graphic file (type png)
 <use Pictures/codComando7.png>
 Package pdftex.def Info: Pictures/codComando7.png  used on input line 162. on i
 nput line 162.
 Package pdftex.def Info: Requested size: 426.79135pt x 259.50757pt on input lin
 e 162.
-<Pictures/codComando8.png, id=989, 444.15938pt x 240.9pt>
+<Pictures/codComando8.png, id=994, 444.15938pt x 240.9pt>
 File: Pictures/codComando8.png Graphic file (type png)
 <use Pictures/codComando8.png>
 Package pdftex.def Info: Pictures/codComando8.png  used on input line 170. on i
@@ -5609,7 +5620,7 @@ Package babel Info: Redefining spanish shorthand "?
  [92
 
  <./Pictures/codComando7.png> <./Pictures/codComando8.png>] (main.bbl
-<Pictures/Libraria-Lello-_-Irmao.jpg, id=998, 923.45pt x 461.725pt>
+<Pictures/Libraria-Lello-_-Irmao.jpg, id=1003, 923.45pt x 461.725pt>
 File: Pictures/Libraria-Lello-_-Irmao.jpg Graphic file (type jpg)
 <use Pictures/Libraria-Lello-_-Irmao.jpg>
 Package pdftex.def Info: Pictures/Libraria-Lello-_-Irmao.jpg  used on input lin
@@ -5666,11 +5677,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31229 strings out of 493312
- 584587 string characters out of 3138898
- 771952 words of memory out of 3000000
- 33646 multiletter control sequences out of 15000+200000
- 628061 words of font info for 241 fonts, out of 3000000 for 9000
+ 31242 strings out of 493312
+ 584830 string characters out of 3138898
+ 772067 words of memory out of 3000000
+ 33652 multiletter control sequences out of 15000+200000
+ 628402 words of font info for 244 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,14n,57p,10509b,1388s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -5678,9 +5689,9 @@ KTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (93 pages, 3037499 bytes).
+Output written on main.pdf (93 pages, 3053308 bytes).
 PDF statistics:
- 1202 PDF objects out of 1440 (max. 8388607)
- 301 named destinations out of 1000 (max. 500000)
- 51587 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1207 PDF objects out of 1440 (max. 8388607)
+ 303 named destinations out of 1000 (max. 500000)
+ 51592 words of extra memory for PDF output out of 51595 (max. 10000000)
 
