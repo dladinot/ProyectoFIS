@@ -296,7 +296,49 @@ Workflow es la automatización de un proceso de negocio, sea parcial o totalment
 \newpage
 
 \section{Diagramas de Descripción de la Interacción}
-
+También conocido como diagrama global de interacciones o en ingles interaction overview diagram, es parte de los diagramas de lenguaje de modelado unificado o UML, tiene como objetivo describir el comportamiento dinámico del sistema. 
+\newline
+Una interacción es un intercambio de mensajes que se realizan para lograr un propósito específico, ahora si le sumamos que un mensaje es una comunicación entre dos objetos, un flujo de un remitente a un receptor, se nos hace más fácil de entender la finalidad del diagrama. Estos objetos interactúan para realizar colectivamente los servicios ofrecidos por la aplicación. En sí, los diagramas de interacción muestran cómo se comunican estos objetos, además, representan un medio para verificar la coherencia del sistema, donde cada diagrama será una descripción y modelado gráfico de cada escenario.
+\newline
+ Las interacciones normalmente tienen 5 aspectos que ayudan a su composición, los objetos que son los actores de la interacción, los roles y por supuesto las jerarquías de orden y por ultimo las conexiones entre los mismos objetos que en si son los mensajes y es lo que define la funcionalidad.
+\newline
+ El diagrama se clasifica en otros dos diagramas, o para una mejor definición hace uso de estos, el diagrama de secuencia, ya tratado anteriormente en el proyecto y el diagrama de colaboración.
+\newline
+\newline
+Diagrama de Secuencia:
+\newline
+Por un lado, tenemos el diagrama de secuencia, en general y como lo habíamos mencionado anteriormente este se encarga de la invocación de mensajes entre objetos, nos permite observar un flujo ordenado de las acciones en el sistema, y nos muestra los objetos que interactúan en la aplicación hasta el punto de permitirnos observar el tiempo de vida de la aplicación u operación de la misma.
+\newline
+\newline
+Diagrama de Colaboración(Comunicación):
+\newline 
+Del otro lado tenemos el diagrama de colaboración, este se enfatiza en la organización de la estructura, aunque también está profundamente relacionado con la interacción entre objetos, el diagrama en si nos ayuda a identificar los mismos objetos y se nos hace más fácil observar la relación y orden. En verdad el diagrama de colaboración es una versión más antigua del diagrama de comunicación.
+\newline
+Una última cosa por añadir es que en muchos casos se hace necesario usar los diagramas de actividad para modelar más claramente la funcionalidad del programa.
+\newpage
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{OverView_1}
+	\centering
+	\caption{Diagrama de Interacción de SGM.}
+	\label{fig:OverView_1}
+\end{figure}
+Este anterior Diagrama describe las interacciones principales de nuestra aplicación, dando inicio en el punto de partida del login, diagrama descrito anterior mente en los diagramas de secuencias, lo cual nos lleva a un diagrama de actividades externos en el que se analiza la valides del login, de no ser válido lo devuelve al diagrama, si es válido continua con el siguiente diagrama, otro diagrama de secuencia, este describe nuestra aplicación por componentes lo cual generaliza completamente las opciones a realizar, cada uno de nuestros componentes han sido descritos con anterioridad por los diagramas de Actividades y en general en todo el proceso, por tanto realizamos una referencia a cada uno dependiendo del componente escogido, de la siguiente manera.
+\newpage
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{OverView_2}
+	\centering
+	\caption{Diagrama de Secuencia de los Componentes.}
+	\label{fig:OverView_2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{OverView_3}
+	\centering
+	\caption{Diagrama de interacción referencia a diagramas anteriores.}
+	\label{fig:OverView_3}
+\end{figure}
 \newpage
 
 \section{Diagramas de Estado}
