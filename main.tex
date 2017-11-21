@@ -48,12 +48,21 @@
 \usepackage{multirow}
 \usepackage{float}
 \usepackage{enumitem}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+\usepackage{color}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
 
 
 %----------------------------------------------------------------------------------------
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
-
+\def\headline#1{\hbox to \hsize{\hrulefill\quad\lower.3em\hbox{#1}\quad\hrulefill}}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -63,9 +72,9 @@
 \begingroup
 \thispagestyle{empty}
 \begin{tikzpicture}[remember picture,overlay]
-\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{pixel}};
-\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Informe de Laboratorio FIS\\[15pt] % Book title
-{\huge Sistema de gestión de monitorías}\\[20pt] % Subtitle
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{portadaFrontal}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Sistema de Gestión de Monitorías\\[15pt] % Book title
+{\huge Fundamentos de Ingeniería de Software}\\[20pt] % Subtitle
 {\Large Daniel Esteban Ladino Torres 20142020043\\}
 {\Large Neider Alejandro Fajardo Cardona 20142020025\\}
 {\Large Cristian Camilo Cuervo Castillo 20142020010\\}}}; % Author name
@@ -77,6 +86,20 @@
 %	COPYRIGHT PAGE
 %----------------------------------------------------------------------------------------
 
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+
+
+\noindent \textsc{Práctica de Fundamentos de Ingeniería de Software}\\ % Publisher
+
+\noindent \textsc{Universidad Distrital Francisco José de Caldas}\\ % URL
+
+\noindent Esta practica se realizo bajo la supervisión del docente Sandro Javier Bolaños Castro, en un total de
+16 semanas desde el Agosto hasta Noviembre de 2017.\\
+
+\noindent \textit{Primera Edición, Noviembre 2017} % Printing/edition date
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
@@ -89,6 +112,8 @@
 \pagestyle{empty} % No headers
 
 \tableofcontents % Print the table of contents itself
+\listoffigures
+\listoftables
 
 \cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
 
@@ -120,7 +145,10 @@
 %------------------------------------------------
 
 \part{Conclusiones}
+
 \include{conclusiones/conclusiones}
+\include{conclusiones/indiceFiguras}
+\include{conclusiones/indiceTablas}
 \include{conclusiones/trabajosfuturos}
 \include{conclusiones/anexos}
 

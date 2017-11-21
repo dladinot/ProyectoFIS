@@ -1,15 +1,27 @@
 \chapterimage{addb4870c144badba811c06724df8512.jpg}
 \chapter{Anexos}
+
+\lstset{language=Java,
+	showspaces=false,
+	showtabs=false,
+	breaklines=true,
+	showstringspaces=false,
+	breakatwhitespace=true,
+	commentstyle=\color{pgreen},
+	keywordstyle=\color{pblue},
+	stringstyle=\color{pred},
+	basicstyle=\ttfamily,
+	moredelim=[il][\textcolor{pgrey}]{$$},
+	moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+
 \section{Código}
+
+
 \subsection{Patrón Singleton}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{codSingleton}
-	\centering
-	\caption{Clase abstracta BaseDatos, parte del patrón proxy, con singleton implementado}
-	\label{fig:codSingleton}
-\end{figure}
+\headline{\textbf{Clase abstracta Base de Datos}} 
+\lstinputlisting{CodigoPatrones/Proxy/BaseDatos.java}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{codSingleton1}
@@ -25,27 +37,17 @@
 	\label{fig:codSingleton2}
 \end{figure}
 \subsection{Patrón Fachada}
-\begin{figure}[H]
 
-	\includegraphics[width=0.5\linewidth]{codfachada1}
-	\caption{Interfaz monitoría (fachada)}
-	\label{fig:codfachada1}
-\end{figure}
-\clearpage
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codfachada2}
-	\centering
-	\caption{Ejemplo de implementación para la fachada}
-	\label{fig:codfachada2}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codfachada3}
-	\centering
-	\caption{Cliente ejemplo fachada}
-	\label{fig:codfachada3}
-\end{figure}
+
+\headline{\textbf{Interfaz Imonitoria}} 
+\lstinputlisting{CodigoPatrones/Fachada/IMonitoria.java}
+\headline{\textbf{Clase Horas Monitoria}}
+\lstinputlisting{CodigoPatrones/Fachada/HorasMonitoria.java}
+\headline{\textbf{Clase Clasificados}}
+\lstinputlisting{CodigoPatrones/Fachada/Clasificados.java}
+\headline{\textbf{Cliente}}
+\lstinputlisting{CodigoPatrones/Fachada/Cliente.java}
+
 \subsection{Patrón Componente}
 \begin{figure}[H]
 	
@@ -70,42 +72,16 @@
 	\label{fig:codSingleton2}
 \end{figure}
 \subsection{Patrón Proxy}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codproxy5}
-	\centering
-	\caption{Cliente con un ejemplo de implementación}
-	\label{fig:codproxy5}
-\end{figure}
 
-\begin{figure}[H]
+\headline{\textbf{Clase abstracta Base de Datos}} 
+\lstinputlisting{CodigoPatrones/Proxy/BaseDatos.java}
+\headline{\textbf{Clase concreta BDSQLite}} 
+\lstinputlisting{CodigoPatrones/Proxy/BDSQLite.java}
+\headline{\textbf{Clase proxy Base de Datos}} 
+\lstinputlisting{CodigoPatrones/Proxy/ProxyBD.java}
+\headline{\textbf{Cliente}} 
+\lstinputlisting{CodigoPatrones/Proxy/Cliente.java}
 
-	\includegraphics[width=0.8\linewidth]{codproxy1}
-
-	\caption{Clase abstracta de las bases de datos}
-	\label{fig:codproxy1}
-\end{figure}
-
-\clearpage
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{codproxy2}
-	\centering
-	\caption{Clase proxy para el manejo de la conexión en SQLite}
-	\label{fig:codproxy2}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codproxy3}
-	\centering
-	\label{fig:codproxy3}
-\end{figure}
-\begin{figure}[H]
-
-	\includegraphics[width=0.7\linewidth]{codproxy4}
-	\caption{Clase con la lógica de la base de datos para SQLite}
-
-\end{figure}
 
 \subsection{Patrón Comando}
 \begin{figure}[H]

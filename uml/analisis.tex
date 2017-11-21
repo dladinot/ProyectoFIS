@@ -87,7 +87,7 @@ Los diagramas de interacción de más frecuente uso son los siguientes:
 \item Diagrama de Comunicación
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{diagcom}
+	\includegraphics[width=0.5\linewidth]{diagcom}
     \caption{Ejemplo de diagrama de comunicaciones}
 	\label{fig:dcomEjemplo}
 \end{figure}
@@ -104,9 +104,9 @@ escenario y mensajes intercambiados entre los objetos.
 A continuación se muestran algunos de los escenarios más importantes de las interacciones del sistema:
 \begin{figure}[th!]
 	\centering
-	\includegraphics[width=1\linewidth]{patronlogueo}
+	\includegraphics[width=0.9\linewidth]{patronlogueo}
     \centering
-    \caption{Diagrama de secuencia para la autenticación de un usuario en el sistema}
+    \caption{Diagrama de secuencia autenticación de usuarios}
 	\label{fig:patronlogueo}
 \end{figure}
 
@@ -124,7 +124,7 @@ Por ejemplo en el siguiente diagrama de secuencia se muestra la funcionalidad de
 Por otro lado una funcionalidad clave del sistema es permitir el contacto oportuno entre los usuarios del sistema, observado en el caso de uso 02 del cuadro 3.2. En este diagrama de secuencia se generaliza primordialmente para todos los usuarios, pues todos tienen la posibilidad de visualizar bien sea el correo o el teléfono de los involucrados en el proceso.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{dsecontacto}
+	\includegraphics[width=0.8\linewidth]{dsecontacto}
     \caption{Diagrama de secuencia para el contacto entre usuarios del sistema}
 	\label{fig:dsecontacto}
 \end{figure}
@@ -134,7 +134,7 @@ Ahora, existirán situaciones en las que un docente necesita de ayuda extra dent
 	\centering
 	\includegraphics[width=1\linewidth]{dseclasificados}
     \centering
-    \caption{Diagrama de secuencia para la publicación de clasificados por parte del profesor}
+    \caption{Diagrama de secuencia para la publicación de clasificados}
 	\label{fig:dseclasificados}
 \end{figure}
 
@@ -168,7 +168,7 @@ En el siguiente diagrama de comunicación podemos ver el proceso del sistema a l
 	\centering
 	\includegraphics[width=0.8\linewidth]{dcomLogin}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.2}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.2}
 	\label{fig:dcomLogin}
 \end{figure}
 \clearpage
@@ -177,43 +177,43 @@ Cada doble mensaje que observamos nos permite visualizar una acción que toma nu
 	\centering
 	\includegraphics[width=0.8\linewidth]{dcomCertifi}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.3}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.3}
 	\label{fig:dcomCertifi}
 \end{figure}
 \clearpage
 El siguiente diagrama de comunicación refleja la secuencia de mensajes realizada por el programa para permitir al usuario obtener la información necesaria, en este caso la información de contacto de otro usuario, que puede ser profesor o monitor y con lo que se garantizaría la oportuna comunicación entre los diferentes usuarios de la aplicación. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{dcomContacto}
+	\includegraphics[width=0.6\linewidth]{dcomContacto}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.6}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.6}
 	\label{fig:dcomContacto}
 \end{figure}
 \clearpage
 Del mismo modo la siguiente figura ilustrar la forma en la que el programa permite a un docente buscar un monitor disponible, por medio de un clasificado que será guardado y posteriormente mostrado a los demás usuarios, específicamente a los monitores que estén disponibles para completar sus horas de monitoria.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{dcomClasifi}
+	\includegraphics[width=0.7\linewidth]{dcomClasifi}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.7}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.7}
 	\label{fig:dcomClasifi}
 \end{figure}
 \clearpage
 El siguiente diagrama de comunicación nos da a conocer las direcciones de los mensajes entre los distintos objetos, desde el profesor y seleccionar a un estudiante y agregarle las horas correspondientes por su labor de monitorias, lo cual lo realiza mediante un objeto interface, este nos permite representar la parte grafica de nuestra app, a su vez conectado por un objeto control, este se encarga de transmitir la información capturada en el objeto que interactúa con el actor principal, haciendo las veces de puente entre una interface y una persistencia, este referencia la información a nuestro objeto base de datos (BD) este realiza la función de consulta y modificación de la base, mediante los mensajes de consultar datos del estudiante y guardar las horas.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{dcomHoras}
+	\includegraphics[width=0.6\linewidth]{dcomHoras}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.6}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.6}
 	\label{fig:dcomHoras}
 \end{figure}
 \clearpage
 Este diagrama de comunicación es el que nos permite la virtualización en gran parte del papeleo, para ello el actor principal en este caso un estudiante, al llenar su información personal, junto con algunos archivos específicos e imágenes, interactúa con un objeto Interface, aquel le permite al usuario digitar y capturar sus datos para evitar todo tramite presencial y molesto, mediante el mensaje subir documento, se planea capturar toda información de un estudiante para luego ser llevada a un control que se encargue mediante otro enlace de comunicación de decirle al objeto BD, que es el que interactúa directamente con nuestra base de datos, que actualice cierta información, dado cierto punto del proceso, el actor solo podrá actualizar su información, ya que la modificación de sus datos personales solo será supervisada por un actor externo de mayor jerarquía, esto con el fin de evitar información corrupta
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{dcomDigi}
+	\includegraphics[width=0.6\linewidth]{dcomDigi}
     \centering
-    \caption{Diagrama de comunicación para el diagrama de secuencia de la figura 3.7}
+    \caption{Diagrama de comunicación para diagrama de la figura 3.7}
 	\label{fig:dcomDigi}
 \end{figure}
 \clearpage
@@ -324,22 +324,21 @@ Una última cosa por añadir es que en muchos casos se hace necesario usar los d
 	\label{fig:OverView_1}
 \end{figure}
 Este anterior Diagrama describe las interacciones principales de nuestra aplicación, dando inicio en el punto de partida del login, diagrama descrito anterior mente en los diagramas de secuencias, lo cual nos lleva a un diagrama de actividades externos en el que se analiza la valides del login, de no ser válido lo devuelve al diagrama, si es válido continua con el siguiente diagrama, otro diagrama de secuencia, este describe nuestra aplicación por componentes lo cual generaliza completamente las opciones a realizar, cada uno de nuestros componentes han sido descritos con anterioridad por los diagramas de Actividades y en general en todo el proceso, por tanto realizamos una referencia a cada uno dependiendo del componente escogido, de la siguiente manera.
-\newpage
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{OverView_2}
+	\includegraphics[width=0.7\linewidth]{OverView_2}
 	\centering
 	\caption{Diagrama de Secuencia de los Componentes.}
 	\label{fig:OverView_2}
 \end{figure}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\linewidth]{OverView_3}
+	\includegraphics[width=0.2\linewidth]{OverView_3}
 	\centering
 	\caption{Diagrama de interacción referencia a diagramas anteriores.}
 	\label{fig:OverView_3}
 \end{figure}
-\newpage
 
 \section{Diagramas de Estado}
 El diagrama de estado es una representación particular de las fases que se pueden presentar un proyecto, encaminado a la abstracción que posee el mismo dado que estas faces resumen ampliamente el comportamiento de nuestras aplicaciones, en verdad son las condiciones y ciclo de vida en general de un objeto. 
@@ -353,7 +352,7 @@ Los estados se representan por medio de rectángulos redondeados que se etiqueta
 	\caption{Diagrama de Estado para el contacto entre Docente/Monitor.}
 	\label{fig:desContacto}
 \end{figure}
-
+\clearpage
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{desCertificarHoras}

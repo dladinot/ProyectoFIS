@@ -1,71 +1,71 @@
 \select@language {spanish}
-\contentsline {part}{\@mypartnumtocformat {I}{Proyecto}}{7}{part.1}
+\contentsline {part}{\@mypartnumtocformat {I}{Proyecto}}{13}{part.1}
 \ttl@starttoc {default@1}
-\contentsline {chapter}{\numberline {1}Problema}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Definici\IeC {\'o}n}{10}{section.1.2}
-\contentsline {section}{\numberline {1.3}Soluci\IeC {\'o}n}{11}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{12}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{12}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Justificaci\IeC {\'o}n}{13}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Justificaci\IeC {\'o}n social}{13}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Justificaci\IeC {\'o}n tecnol\IeC {\'o}gica}{13}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Justificaci\IeC {\'o}n ambiental}{13}{subsection.1.5.3}
-\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Scrum}{16}{section.2.2}
-\contentsline {section}{\numberline {2.3}Ventajas y Desventajas}{17}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Ventajas}{17}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Desventajas}{17}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Cronograma}{18}{section.2.4}
-\contentsline {part}{\@mypartnumtocformat {II}{UML}}{19}{part.2}
+\contentsline {chapter}{\numberline {1}Problema}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{15}{section.1.1}
+\contentsline {section}{\numberline {1.2}Definici\IeC {\'o}n}{16}{section.1.2}
+\contentsline {section}{\numberline {1.3}Soluci\IeC {\'o}n}{17}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos}{18}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{18}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{18}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Justificaci\IeC {\'o}n}{19}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Justificaci\IeC {\'o}n social}{19}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Justificaci\IeC {\'o}n tecnol\IeC {\'o}gica}{19}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Justificaci\IeC {\'o}n ambiental}{19}{subsection.1.5.3}
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{21}{section.2.1}
+\contentsline {section}{\numberline {2.2}Scrum}{22}{section.2.2}
+\contentsline {section}{\numberline {2.3}Ventajas y Desventajas}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Ventajas}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Desventajas}{23}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Cronograma}{23}{section.2.4}
+\contentsline {part}{\@mypartnumtocformat {II}{UML}}{25}{part.2}
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
-\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interacciones}{24}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Diagrama de Secuencia}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Diagrama de Comunicaci\IeC {\'o}n}{29}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Diagramas de Actividades}{35}{section.3.4}
-\contentsline {section}{\numberline {3.5}Diagramas de Workflow}{37}{section.3.5}
-\contentsline {section}{\numberline {3.6}Diagramas de Descripci\IeC {\'o}n de la Interacci\IeC {\'o}n}{40}{section.3.6}
-\contentsline {section}{\numberline {3.7}Diagramas de Estado}{43}{section.3.7}
-\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Diagrama de Clases de An\IeC {\'a}lisis}{46}{section.4.2}
-\contentsline {section}{\numberline {4.3}Diagrama de Clases}{49}{section.4.3}
-\contentsline {section}{\numberline {4.4}Patrones}{54}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Patrones creacionales}{54}{subsection.4.4.1}
-\contentsline {paragraph}{Singleton}{55}{section*.2}
-\contentsline {subsection}{\numberline {4.4.2}Patrones Estructurales}{56}{subsection.4.4.2}
-\contentsline {paragraph}{Patr\IeC {\'o}n Fachada}{56}{section*.3}
-\contentsline {paragraph}{Patr\IeC {\'o}n Componente}{57}{section*.4}
-\contentsline {paragraph}{Patr\IeC {\'o}n Proxy}{58}{section*.5}
-\contentsline {subsection}{\numberline {4.4.3}Patrones de Comportamiento}{59}{subsection.4.4.3}
-\contentsline {paragraph}{Patr\IeC {\'o}n Comando}{59}{section*.6}
-\contentsline {chapter}{\numberline {5}Despliegue}{61}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{61}{section.5.1}
-\contentsline {section}{\numberline {5.2}Diagrama de Sistemas}{62}{section.5.2}
-\contentsline {section}{\numberline {5.3}Diagrama de Componentes}{63}{section.5.3}
-\contentsline {section}{\numberline {5.4}Diagrama de Nodos}{64}{section.5.4}
-\contentsline {section}{\numberline {5.5}M\IeC {\'e}tricas}{65}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Proyecto SGM}{66}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Paquete API}{69}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Paquete utilitarios}{71}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Paquete Com}{73}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Paquete Edu}{75}{subsection.5.5.5}
-\contentsline {part}{\@mypartnumtocformat {III}{Conclusiones}}{77}{part.3}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interacciones}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Diagrama de Secuencia}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Diagrama de Comunicaci\IeC {\'o}n}{35}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Diagramas de Actividades}{41}{section.3.4}
+\contentsline {section}{\numberline {3.5}Diagramas de Workflow}{43}{section.3.5}
+\contentsline {section}{\numberline {3.6}Diagramas de Descripci\IeC {\'o}n de la Interacci\IeC {\'o}n}{46}{section.3.6}
+\contentsline {section}{\numberline {3.7}Diagramas de Estado}{48}{section.3.7}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}Diagrama de Clases de An\IeC {\'a}lisis}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}Diagrama de Clases}{54}{section.4.3}
+\contentsline {section}{\numberline {4.4}Patrones}{57}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Patrones creacionales}{57}{subsection.4.4.1}
+\contentsline {paragraph}{Singleton}{58}{section*.4}
+\contentsline {subsection}{\numberline {4.4.2}Patrones Estructurales}{59}{subsection.4.4.2}
+\contentsline {paragraph}{Patr\IeC {\'o}n Fachada}{59}{section*.5}
+\contentsline {paragraph}{Patr\IeC {\'o}n Componente}{60}{section*.6}
+\contentsline {paragraph}{Patr\IeC {\'o}n Proxy}{61}{section*.7}
+\contentsline {subsection}{\numberline {4.4.3}Patrones de Comportamiento}{62}{subsection.4.4.3}
+\contentsline {paragraph}{Patr\IeC {\'o}n Comando}{62}{section*.8}
+\contentsline {chapter}{\numberline {5}Despliegue}{65}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{65}{section.5.1}
+\contentsline {section}{\numberline {5.2}Diagrama de Sistemas}{66}{section.5.2}
+\contentsline {section}{\numberline {5.3}Diagrama de Componentes}{67}{section.5.3}
+\contentsline {section}{\numberline {5.4}Diagrama de Nodos}{68}{section.5.4}
+\contentsline {section}{\numberline {5.5}M\IeC {\'e}tricas}{69}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Proyecto SGM}{70}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Paquete API}{73}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Paquete utilitarios}{75}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Paquete Com}{77}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Paquete Edu}{79}{subsection.5.5.5}
+\contentsline {part}{\@mypartnumtocformat {III}{Conclusiones}}{81}{part.3}
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
-\contentsline {chapter}{\numberline {6}Conlusiones}{79}{chapter.6}
-\contentsline {chapter}{\numberline {7}Trabajos Futuros}{81}{chapter.7}
-\contentsline {chapter}{\numberline {8}Anexos}{83}{chapter.8}
-\contentsline {section}{\numberline {8.1}C\IeC {\'o}digo}{83}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Patr\IeC {\'o}n Singleton}{83}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Patr\IeC {\'o}n Fachada}{84}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Patr\IeC {\'o}n Componente}{86}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Patr\IeC {\'o}n Proxy}{88}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}Patr\IeC {\'o}n Comando}{91}{subsection.8.1.5}
+\contentsline {chapter}{\numberline {6}Conlusiones}{83}{chapter.6}
+\contentsline {chapter}{\numberline {7}Trabajos Futuros}{85}{chapter.7}
+\contentsline {chapter}{\numberline {8}Anexos}{87}{chapter.8}
+\contentsline {section}{\numberline {8.1}C\IeC {\'o}digo}{87}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Patr\IeC {\'o}n Singleton}{87}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Patr\IeC {\'o}n Fachada}{88}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Patr\IeC {\'o}n Componente}{91}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Patr\IeC {\'o}n Proxy}{93}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Patr\IeC {\'o}n Comando}{96}{subsection.8.1.5}
 \contentsfinish 
