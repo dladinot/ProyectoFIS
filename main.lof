@@ -94,18 +94,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Clase BDSQLite, parte del patr\IeC {\'o}n proxy, con singleton implementado}}{87}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Clase ProxyBD, parte del patr\IeC {\'o}n proxy, con singleton implementado}}{88}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Clase AClasificado, contiene interfaz que implementan los clasificados}}{91}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Clase Bloque, contiene los objetos tipo clasificados}}{92}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Clase Clasificado}}{92}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Clase Cliente que ejecuta el comando}}{96}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Interface comando}}{96}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Clase Aplicacion donde se manejan las consultas a la BD}}{97}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Implementaci\IeC {\'o}n de la interfaz comando por cada metodo de Aplicacion}}{97}{figure.8.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Comando de Modificaci\IeC {\'o}n}}{97}{figure.8.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Comando de Adici\IeC {\'o}n}}{98}{figure.8.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Comando de Eliminaci\IeC {\'o}n}}{98}{figure.8.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Comando de Consulta}}{99}{figure.8.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Clase Menu con la que interactua el cliente en la GUI}}{99}{figure.8.14}
 \contentsfinish 

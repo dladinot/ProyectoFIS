@@ -22,20 +22,12 @@
 
 \headline{\textbf{Clase abstracta Base de Datos}} 
 \lstinputlisting{CodigoPatrones/Proxy/BaseDatos.java}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{codSingleton1}
-	\centering
-	\caption{Clase BDSQLite, parte del patrón proxy, con singleton implementado}
-	\label{fig:codSingleton1}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{codSingleton2}
-	\centering
-	\caption{Clase ProxyBD, parte del patrón proxy, con singleton implementado}
-	\label{fig:codSingleton2}
-\end{figure}
+\headline{\textbf{Clase BDSQLite}} 
+\lstinputlisting{CodigoPatrones/Singleton/BDSQLite.java}
+\headline{\textbf{Clase ProxyBD}} 
+\lstinputlisting{CodigoPatrones/Singleton/ProxyBD.java}
+
+
 \subsection{Patrón Fachada}
 
 
@@ -49,28 +41,14 @@
 \lstinputlisting{CodigoPatrones/Fachada/Cliente.java}
 
 \subsection{Patrón Componente}
-\begin{figure}[H]
-	
-	\includegraphics[width=0.5\linewidth]{codComposite}
-	
-	\caption{Clase AClasificado, contiene interfaz que implementan los clasificados}
-	\label{fig:codSingleton2}
-\end{figure}
-\clearpage
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codComposite1}
-	\centering
-	\caption{Clase Bloque, contiene los objetos tipo clasificados}
-	\label{fig:codSingleton2}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{codComposite2}
-	\centering
-	\caption{Clase Clasificado}
-	\label{fig:codSingleton2}
-\end{figure}
+
+\headline{\textbf{Interfaz AClasificado}} 
+\lstinputlisting{CodigoPatrones/Componente/AClasificado.java}
+\headline{\textbf{Clase Concreta Bloque}} 
+\lstinputlisting{CodigoPatrones/Componente/Bloque.java}
+\headline{\textbf{Clase Concreta Clasificado}} 
+\lstinputlisting{CodigoPatrones/Componente/Clasificado.java}
+
 \subsection{Patrón Proxy}
 
 \headline{\textbf{Clase abstracta Base de Datos}} 
@@ -84,68 +62,23 @@
 
 
 \subsection{Patrón Comando}
-\begin{figure}[H]
 
-	\includegraphics[width=0.8\linewidth]{codComando1}
+\headline{\textbf{Interfaz Comando}} 
+\lstinputlisting{CodigoPatrones/Comando/IComando.java}
+\headline{\textbf{Clase concreta Comando de Adición}} 
+\lstinputlisting{CodigoPatrones/Comando/ComandoDeAdicion.java}
+\headline{\textbf{Clase concreta Comando de Consulta}} 
+\lstinputlisting{CodigoPatrones/Comando/ComandoDeConsulta.java}
+\headline{\textbf{Clase concreta Comando de Eliminacion}} 
+\lstinputlisting{CodigoPatrones/Comando/ComandoDeEliminacion.java}
+\headline{\textbf{Clase concreta Comando de Modificación}} 
+\lstinputlisting{CodigoPatrones/Comando/ComandoDeModificacion.java}
+\headline{\textbf{Clase Menú}} 
+\lstinputlisting{CodigoPatrones/Comando/Menu.java}
+\headline{\textbf{Clase Aplicacion}} 
+\lstinputlisting{CodigoPatrones/Comando/Aplicacion.java}
+\headline{\textbf{Cliente}} 
+\lstinputlisting{CodigoPatrones/Comando/Cliente.java}
 
-	\caption{Clase Cliente que ejecuta el comando}
-	\label{fig:codComando1}
-\end{figure}
-\begin{figure}[H]
 
-	\includegraphics[width=0.6\linewidth]{codComando3}
-
-	\caption{Interface comando}
-	\label{fig:codComando3}
-	
-\end{figure}
-\clearpage
-\begin{figure}[H]
-
-	\includegraphics[width=0.8\linewidth]{codComando2}
-
-	\caption{Clase Aplicacion donde se manejan las consultas a la BD}
-	\label{fig:codComando2}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\caption{Implementación de la interfaz comando por cada metodo de Aplicacion}
-	\includegraphics[width=1\linewidth]{codComando4}
-	\caption{Comando de Modificación}
-	\centering
-	\label{fig:codComando4}
-\end{figure}
-\clearpage
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codComando5}
-	\centering
-	\caption{Comando de Adición}
-	\label{fig:codComando5}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codComando6}
-	\centering
-	\caption{Comando de Eliminación}
-	\label{fig:codComando6}
-\end{figure}
-\clearpage
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codComando7}
-	\centering
-	\caption{Comando de Consulta}
-	\label{fig:codComando7}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{codComando8}
-	\centering
-	\caption{Clase Menu con la que interactua el cliente en la GUI}
-	\label{fig:codComando8}
-\end{figure}
 
